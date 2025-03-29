@@ -1,0 +1,15 @@
+# Dependency directories
+node_modules/
+
+# IDE specific files
+.idea/
+.vscode/
+
+# AWS related
+.aws-sam/
+
+# OS specific files
+.DS_Store
+
+# Environment variables
+.env
