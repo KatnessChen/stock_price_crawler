@@ -1,20 +1,12 @@
 {
-  "name": "hello_world",
+  "name": "stock_price_crawler",
   "version": "1.0.0",
-  "description": "hello world sample for NodeJS",
-  "main": "app.js",
+  "description": "Stock price crawler with AWS serverless",
+  "main": "dist/app.js",
   "repository": "https://github.com/awslabs/aws-sam-cli/tree/develop/samcli/local/init/templates/cookiecutter-aws-sam-hello-nodejs",
   "author": "SAM CLI",
   "license": "MIT",
   "dependencies": {
-    "@aws-sdk/client-timestream-write": "^3.x.x",
-    "axios": ">=1.6.0"
-  },
-  "scripts": {
-    "test": "mocha tests/unit/"
-  },
-  "devDependencies": {
-    "chai": "^4.3.6",
-    "mocha": "^10.1.0"
+    "@aws-sdk/client-timestream-write": "^3.x.x"
   }
 }
